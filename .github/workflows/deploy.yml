@@ -20,7 +20,7 @@ jobs:
                   port: ${{ secrets.VPS_PORT }}
                   key: ${{ secrets.VPS_SSH_KEY }}
                   script: |
-                      cd /home/dean-cloud/github/todolist-expressjs
+                      cd /home/dean-cloud/gii/kursi-roda/kursi-roda-core
                       git pull origin main
                       npm install
                   #   docker compose up -d --build
